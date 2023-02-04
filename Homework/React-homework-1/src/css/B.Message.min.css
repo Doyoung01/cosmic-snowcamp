@@ -1,0 +1,664 @@
+.img_brunch {
+    background: url(//t1.daumcdn.net/brunch/static/img/help/cbt/img_brunch_180814.v1.png) no-repeat 0
+      0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    vertical-align: top;
+  }
+  .account_layer {
+    left: 50%;
+    margin-left: -230px;
+    margin-top: -180px;
+    position: absolute;
+    top: 50%;
+    z-index: 200;
+  }
+  .account_layer .inner_account_layer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-family: 'Noto Sans DemiLight', Malgun Gothic, sans-serif;
+    width: 598px;
+  }
+  .account_layer .layer_head {
+    padding-top: 66px;
+  }
+  .account_layer .tit_brunch {
+    background-position: 0 -61px;
+    background-size: 200px auto;
+    display: block;
+    height: 52px;
+    margin: 0 auto;
+    width: 52px;
+  }
+  .account_layer .tit_account {
+    color: #333;
+    font-family: 'Nanum Myeongjo', sans-serif;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 40px;
+    padding-top: 18px;
+    text-align: center;
+  }
+  .account_layer .txt_account {
+    color: #959595;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 8px;
+    text-align: center;
+  }
+  .account_layer .btn_group {
+    padding-bottom: 60px;
+    padding-top: 32px;
+    text-align: center;
+  }
+  .account_layer .btn_group.empty {
+    padding-bottom: 42px;
+  }
+  .account_layer .btn_group .btn_account {
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 2px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .account_layer .btn_group .btn_account.btn_ok {
+    width: 40px;
+  }
+  .account_layer .btn_group .btn_write {
+    border-color: #00c3bd;
+    color: #00c3bd;
+  }
+  .account_layer .layer_foot .btn_close {
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 20px;
+  }
+  .account_layer .btn_close .img_brunch {
+    background-position: -52px -61px;
+    background-size: 200px auto;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    width: 20px;
+  }
+  .account_layer .btn_in_beta_layer {
+    width: 70px;
+  }
+  .account_layer .btn_group .btn_request {
+    background-color: #fff;
+    border: 1px solid #00c3bd;
+    color: #00c3bd;
+  }
+  .brunch_pass .tit_account {
+    line-height: 43px;
+  }
+  .brunch_pass .btn_group {
+    padding-top: 32px;
+  }
+  .brunch_pass .btn_close {
+    width: 70px;
+  }
+  .brunch_pass .btn_group .btn_request {
+    margin-left: 4px;
+    width: 70px;
+  }
+  .layer_start {
+    background: #fff;
+    border-radius: 3px;
+    height: 400px;
+    width: 340px;
+  }
+  .layer_start .txt_start {
+    color: #959595;
+    font-size: 14.5px;
+    font-weight: 300;
+    line-height: 22px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .choice_book,
+  .choice_comm {
+    display: block;
+    position: relative;
+  }
+  .item_start .choice_book .inp_comm,
+  .item_start .choice_comm .inp_comm {
+    -webkit-appearance: none;
+    border: 0;
+    height: 18px;
+    left: 0;
+    opacity: 0.01;
+    position: absolute;
+    top: 1px;
+    vertical-align: top;
+    width: 18px;
+    z-index: -1;
+  }
+  .item_start .choice_book .lab_comm,
+  .item_start .choice_comm .lab_comm {
+    color: #666;
+    font-size: 12px;
+    padding-left: 25px;
+  }
+  .layer_start .tit_start {
+    color: #333;
+    display: block;
+    font-family: 'Noto Sans Light';
+    font-size: 36px;
+    font-weight: 300;
+    height: 32.5px;
+    letter-spacing: -0.9px;
+    line-height: 32.5px;
+    margin-bottom: 16px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .ico_signin {
+    background: url(//t1.daumcdn.net/brunch9/static/images/pc/ico_sidebar_210119.png) no-repeat;
+    display: inline-block;
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    vertical-align: top;
+  }
+  .choice_book .ico_signin,
+  .choice_comm .ico_signin {
+    height: 18px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 1px;
+    width: 19px;
+  }
+  .choice_checkbox .inp_comm + .ico_signin {
+    background-position: -97px -28px;
+  }
+  .choice_checkbox .inp_comm:checked + .ico_signin {
+    background-position: -74px -28px;
+  }
+  @media (max-width: 1281px) {
+    .join_theme {
+      width: 1000px;
+    }
+    .sign_kakao {
+      right: 50px;
+    }
+    @keyframes sign_kakao {
+      0% {
+        opacity: 0;
+        right: -400px;
+      }
+      to {
+        opacity: 1;
+        right: 50px;
+      }
+    }
+  }
+  .brunch_join {
+    background-color: #f8f8f8;
+  }
+  .layer_welcome {
+    background: #fff;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    left: 50%;
+    min-height: 480px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    z-index: 1000004;
+  }
+  .layer_welcome .inner_layer {
+    padding: 65px 0 50px;
+  }
+  .layer_welcome .bg_brunch {
+    left: 22px;
+    position: absolute;
+    top: 23px;
+  }
+  .layer_welcome .bg_brunch .ico_signin {
+    background-position: -200px 0;
+    height: 73px;
+    width: 10px;
+  }
+  .layer_welcome .thumb_layer {
+    border-radius: 50%;
+    height: 110px;
+    margin: 0 auto 23px;
+    width: 110px;
+  }
+  .layer_welcome .img_thumb {
+    border-radius: 55px;
+    height: 110px;
+    width: 110px;
+  }
+  .layer_welcome .tit_layer {
+    color: #333;
+    display: block;
+    font-family: 'Nanum Myeongjo', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 32px;
+    padding: 0 45px;
+  }
+  .layer_welcome .wrap_name {
+    display: block;
+  }
+  .layer_welcome .wrap_name .txt_name {
+    max-width: 86%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .layer_welcome .wrap_name .txt_name,
+  .layer_welcome .wrap_name .txt_name2 {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .layer_welcome .txt_layer {
+    border-top: 1px solid hsla(0, 0%, 75%, 0.3);
+    color: #959595;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 28px 50px 0;
+    padding-top: 29px;
+  }
+  .layer_welcome .wrap_btn {
+    padding-top: 28px;
+  }
+  .layer_welcome .btn {
+    color: #959595;
+    font-size: 13px;
+    padding: 11px 16px 10px;
+    text-align: center;
+    width: 140px;
+  }
+  .layer_welcome .btn + .btn {
+    margin-left: 8px;
+  }
+  .layer_welcome .btn_primary {
+    border-color: #00c6be;
+    color: #00c6be;
+  }
+  .layer_welcome .link_close {
+    padding: 15px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+  }
+  .layer_welcome .link_close .ico_signin {
+    background-position: -120px -28px;
+    height: 20px;
+    width: 20px;
+  }
+  .list_slide.slide1 {
+    left: 0;
+  }
+  .list_slide.slide2 {
+    left: -100%;
+  }
+  .list_slide.slide3 {
+    left: -200%;
+  }
+  .layer_login {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+  }
+  .layer_login .sign_kakao3 {
+    background-color: #fff;
+    border-radius: 15px;
+    display: inline-block;
+    height: 610px;
+    left: calc(50% - 500px);
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 305px);
+    width: 1000px;
+  }
+  .layer_login .item_slide {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+  .layer_login .top_logo {
+    left: 62px;
+    position: absolute;
+    top: 83px;
+  }
+  .layer_login .top_logo .ico_logo {
+    background-position: -150px -790px;
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+  }
+  .layer_login .cont_slide {
+    padding: 142px 0 101px;
+    text-align: center;
+  }
+  .layer_login .slide_box {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+  }
+  .layer_login .slide_box .list_slide {
+    position: relative;
+  }
+  .layer_login .slide_box .slide_item {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  .layer_login .slide_box .link_item {
+    display: block;
+  }
+  .layer_login .slide_box .link_item:hover {
+    text-decoration: none;
+  }
+  .layer_login .slide_box .thum_item {
+    display: block;
+    height: 208px;
+    margin: 0 auto;
+    width: 315px;
+  }
+  .layer_login .slide_box .thum_item img {
+    height: 100%;
+    width: 100%;
+  }
+  .layer_login .slide_box .cont_item {
+    display: block;
+    margin: 41px auto 17px;
+  }
+  .layer_login .slide_box .cont_item .tit_info {
+    display: block;
+    font-family: auto;
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 1;
+  }
+  .layer_login .slide_box .cont_item .txt_info {
+    color: #999;
+    display: block;
+    font-family: auto;
+    font-size: 15px;
+    margin-top: 14px;
+  }
+  .layer_login .btn_arrow {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+  }
+  .layer_login .btn_arrow .ico_arrow {
+    display: inline-block;
+    height: 13px;
+    opacity: 0.3;
+    vertical-align: middle;
+    width: 7px;
+  }
+  .layer_login .btn_arrow .ico_arrow:hover,
+  .layer_login .btn_arrow.on .ico_arrow {
+    opacity: 1;
+  }
+  .layer_login .btn_prev .ico_arrow {
+    background-position: -140px -810px;
+  }
+  .layer_login .btn_next .ico_arrow {
+    background-position: -140px -790px;
+  }
+  .layer_login .paging {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .layer_login .paging li {
+    display: inline-block;
+  }
+  .layer_login .paging .btn_paging {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+  }
+  .layer_login .paging .btn_paging:before {
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    box-sizing: border-box;
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+  }
+  .layer_login .paging .btn_paging.on:before {
+    background-color: #b2b2b2;
+    border: none;
+  }
+  .layer_login .item_start {
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100%;
+    padding: 94px 47px 72px;
+    width: 50%;
+  }
+  .layer_login .box_start {
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 49px;
+  }
+  .layer_login .box_start .tit_txt {
+    display: block;
+    font-family: auto;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 22px;
+    margin-bottom: 18px;
+  }
+  .layer_login .link_search {
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #333;
+    display: block;
+    font-family: auto;
+    font-size: 16px;
+    height: 60px;
+    line-height: 61px;
+    margin-top: 14px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  }
+  .layer_login .link_start {
+    background: #ffe500;
+  }
+  .layer_login .ico_ka {
+    background-position: -140px -570px;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    top: 1px;
+    vertical-align: middle;
+    width: 20px;
+  }
+  .layer_login .link_start .txt_item {
+    display: inline-block;
+    font-family: auto;
+    position: relative;
+    top: 1px;
+  }
+  .layer_login .box_searh {
+    padding: 40px 0;
+  }
+  .layer_login .box_searh .tit_txt {
+    display: block;
+    font-family: auto;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .layer_login .desc_help {
+    color: #6c6c6c;
+    display: block;
+    font-family: auto;
+    font-size: 14px;
+    margin-top: 57px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .layer_login .btn_close {
+    position: absolute;
+    right: 27px;
+    top: 25px;
+  }
+  .layer_login .btn_close .ico_close {
+    background-position: -140px -760px;
+    height: 23px;
+    width: 23px;
+  }
+  .signin_body {
+    background-color: #f8f8f8;
+  }
+  .service_login {
+    display: block;
+    height: 587px;
+    left: calc(50% - 261px);
+    position: absolute;
+    top: calc(50% - 293px);
+    width: 522px;
+  }
+  .service_login .profile_item {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .service_login .profile_item .tit_txt {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+  }
+  .service_login .profile_item .thum_item {
+    background-image: url(https://t1.daumcdn.net/brunch/static/img/help/pc/ico_profile_100_00.png);
+    background-size: 100%;
+    border-radius: 50%;
+    display: block;
+    height: 60px;
+    margin: 37px auto 20px;
+    overflow: hidden;
+    width: 60px;
+  }
+  .service_login .profile_item .thum_item img {
+    height: 100%;
+    width: 100%;
+  }
+  .service_login .profile_item .cont_item {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .service_login .profile_item .cont_item .ico_ka {
+    background-position: -170px -760px;
+    height: 20px;
+    width: 20px;
+  }
+  .service_login .box_name {
+    background-color: #fff;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px 18px;
+    position: relative;
+    width: 100%;
+  }
+  .service_login .box_name .inner_info {
+    display: inline-block;
+    height: 22px;
+    width: 400px;
+  }
+  .service_login .box_name .inner_info .tf_g {
+    border: none;
+    font-weight: 300;
+    width: 100%;
+  }
+  .service_login .box_name .txt_error {
+    bottom: -30px;
+    color: #f85353;
+    display: none;
+    font-size: 12px;
+    left: 0;
+    position: absolute;
+  }
+  .service_login .box_name .btn_close {
+    float: right;
+  }
+  .service_login .box_name .btn_close .ico_close {
+    background-position: -120px -820px;
+    height: 18px;
+    vertical-align: middle;
+    width: 18px;
+  }
+  .service_login .box_name.error {
+    margin-bottom: 45px;
+  }
+  .service_login .box_name.error .txt_error {
+    display: block;
+  }
+  .service_login .box_start {
+    background-color: #fff;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 10px;
+    padding: 4px 18px 10px;
+    width: 100%;
+  }
+  .service_login .head_box {
+    border-bottom: 1px solid #ebebeb;
+  }
+  .service_login .agree_box .choice_comm {
+    margin: 16px 0;
+  }
+  .service_login .agree_box .choice_comm .lab_comm {
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .service_login .agree_box .choice_comm .lab_comm .check_info {
+    color: #959595;
+    display: block;
+    margin-left: 26px;
+    margin-top: 4px;
+  }
+  .service_login .wrap_btn .btn_comm {
+    background-color: #00c6be;
+    border-radius: 40px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 42px;
+    margin: 40px auto 0;
+    width: 200px;
+  }
+  .service_login .wrap_btn .btn_comm:disabled {
+    background-color: #fff;
+    border: 1px solid #7fe1de;
+    color: #ace1de;
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2) {
+    .ico_brunch {
+      background: url(//t1.daumcdn.net/brunch/static/img/help/pc/ico_brunch8_180608.png) no-repeat;
+    }
+    .ico_signin {
+      background: url(//t1.daumcdn.net/brunch9/static/images/pcrtn/ico_sidebar_rtn_210119.png)
+        no-repeat;
+      background-size: 210px 75px;
+    }
+  }
